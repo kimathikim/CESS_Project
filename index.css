@@ -1,0 +1,233 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ede2e2;
+  }
+  
+  header {
+    background-color: #391717;
+    color: #fff;
+    padding: 5px;
+  }
+  .logo
+  {
+    color:rgb(255, 255, 255);
+    background-color: #f60000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width:50px;
+    height: 50px;
+    font-size: 18px;
+    font-weight:300;
+    text-shadow: #f60000;
+    border: solid rgb(222, 16, 16);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+  }
+  header nav .logo h3 a:hover{
+    
+    color: rgb(255, 255, 255);
+    
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: -50px;
+    float: right;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  nav a:hover{
+    
+    color: rgb(0, 8, 255);
+    
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 0px;
+  }
+  
+  .hero-image {
+    background-image: url("https://images.pexels.com/photos/5462565/pexels-photo-5462565.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 150px;
+  }
+  
+  .hero-image h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+  }
+  
+  .hero-image p {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: rgb(208, 208, 208);
+  }
+  
+  .featured-products{
+    background-color: rgb(201, 177, 177);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .featured-products .text{
+    height: 40px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .product{
+    background-color: #ac7373;
+    border:#ffffff;
+    border-radius: 8px;
+    height:auto ;
+    width: 300px;
+    margin: 20px;
+    box-shadow:0 0 15px #221e1e, 0 0 10px #eaeaea;
+    z-index:999;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+  }
+  
+  .product img {
+    width: 100%;
+    padding: 5px;
+    height: 75%;
+  }
+  .product button
+  {
+    width: fit-content;
+    color: #ffffff;
+    border-radius: 20px;
+    background-color: rgb(232, 131, 0);
+  }
+
+  .product .btn
+  {
+    width: 100%;
+    height:100px;
+    display:inline-block;
+    justify-content: center;
+  }
+  .product .btn button{
+    float: right;
+    margin-top: -50px;
+    margin-right: 15px;
+  }
+  .product button:hover{
+    background-color: darkolivegreen;
+  }
+  .product:hover{
+    transform: scale(1.1);
+  }
+  
+  .product h3 {
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .product-category p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    }
+    #history, #values{
+    background-color: rgb(201, 177, 177);
+      padding: 10px;;
+    }
+    #contact-info
+    {
+     
+      background-color: rgb(201, 177, 177);
+    }
+    .contact
+    {
+        background-color: #ac7373;
+        padding: 10px;
+    }
+    .container
+    {
+      background-color: rgb(201, 177, 177);
+      padding: 5px;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .form
+    {
+      padding-bottom: 10px;
+      border-radius: 10px;
+      width: 80%;
+      height: auto;
+      margin: 0 100px;
+      justify-content: center;
+      background-color: #b07575;
+    }
+    #name{
+      width: 60%;
+      padding: 5px;
+      margin: 10px;
+    }
+    #email
+    {
+      width: 60%;
+      padding: 5px;
+      margin: 10px;
+    }
+    #subject
+    {
+      width: 60%;
+      padding: 5px;
+      margin: 10px;
+    }
+    #message
+    {
+      width: 60%;
+      padding: 5px;
+      margin: 10px;
+    }
+
+  .form   button {
+    background-color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    }
+
+    footer {
+    background-color: #413535;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    }
+    
+    
